@@ -1,0 +1,29 @@
+.createaccount{
+    padding-left: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size:  20px;
+    color: white;
+    background-color: blue;
+    border: none;
+}
+.enroll{
+    color: gray;
+    font-size: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+    margin-right: 10px;
+    border: none;
+}
+.becomeedu{
+    color: gray;
+    font-size: 20px;
+    border: none;
+    background-color: #dff5ff;
+}
+.becomeedu,
+.enroll {
+  position: relative;
+  z-index: 10;
+  cursor: pointer;
+}

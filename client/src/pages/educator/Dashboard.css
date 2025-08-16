@@ -1,0 +1,109 @@
+.dashboard-wrapper {
+display: flex;
+flex-direction: column;
+height: 100vh;
+font-family: 'Segoe UI', sans-serif;
+background-color: #f8f9fa;
+}
+
+.dashboard-main {
+display: flex;
+flex: 1;
+overflow: hidden;
+}
+
+.dashboard-sidebar {
+  width: 220px;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  padding-top: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* controls vertical spacing between items */
+}
+
+
+.dashboard-content {
+flex: 1;
+display: flex;
+flex-direction: column;
+gap: 40px; /* Adds vertical gap between dashboard cards and enrollments section */
+padding: 40px 48px;
+overflow-y: auto;
+background-color: #f4f6f8;
+}
+
+.dashboard-cards {
+display: flex;
+gap: 24px;
+flex-wrap: wrap;
+}
+
+.card {
+flex: 1;
+min-width: 260px;
+background-color: #fff;
+padding: 20px 24px;
+display: flex;
+align-items: center;
+gap: 16px;
+border-radius: 12px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card img {
+width: 44px;
+height: 44px;
+}
+
+.count {
+font-size: 1.75rem;
+font-weight: 700;
+margin: 0;
+}
+
+.card p:last-child {
+font-size: 14px;
+color: #6c757d;
+margin: 4px 0 0 0;
+}
+
+.enrollments-section {
+background-color: #fff;
+padding: 24px 28px;
+border-radius: 12px;
+box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.enrollments-section h2 {
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+table {
+width: 100%;
+border-collapse: collapse;
+}
+
+thead {
+background-color: #e9ecef;
+}
+
+th, td {
+padding: 12px 14px;
+text-align: left;
+border-bottom: 1px solid #dee2e6;
+}
+
+.student-cell {
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.student-cell img {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}

@@ -1,0 +1,109 @@
+/* Layout wrapper */
+.add-course-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Navbar always at the top */
+.navbar {
+  background-color: white;
+  padding: 15px 30px;
+  border-bottom: 1px solid #ddd;
+  font-size: 20px;
+  font-weight: bold;
+  z-index: 1;
+}
+
+/* Main container below navbar */
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar next to content, starting below navbar */
+.sidebar {
+  width: 220px;
+  background-color: #ffffff !important; /* White background */
+  border-right: 1px solid #ddd;
+  padding: 20px 0;
+}
+
+.sidebar a {
+  display: block;
+  color: #000000 !important; /* Black text */
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.sidebar a:hover {
+  background-color: #f3f4f6;
+}
+
+
+/* Main content area */
+.content-wrapper {
+  flex: 1;
+  padding: 40px;
+  background-color: #f7f7f7;
+}
+
+/* Form container */
+.course-form {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.course-form input,
+.course-form .quill-editor {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.course-form .quill-editor {
+  height: 200px;
+}
+
+.image-preview {
+  height: 180px;
+  margin-top: 10px;
+  object-fit: cover;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+/* Chapters */
+.chapter {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.add-chapter-button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+.add-chapter-button:hover {
+  background-color: #1d4ed8;
+}

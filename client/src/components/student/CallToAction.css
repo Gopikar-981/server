@@ -1,0 +1,17 @@
+.get{
+    background-color: blue;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    font-size: medium;
+   justify-content: center;
+}
+.cta{
+    display: flex;
+  justify-content: center;
+  
+  margin-top: 20px;
+}

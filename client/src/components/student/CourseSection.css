@@ -1,0 +1,42 @@
+.course-section {
+  background-color: white;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  color: #6b7280;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  justify-items: center;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+.show-btn {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #2563eb;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px;
+  transition: background-color 0.3s;
+}
+
+.show-btn:hover {
+  background-color: #1d4ed8;
+}
